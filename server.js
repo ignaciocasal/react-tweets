@@ -7,6 +7,8 @@ var express = require('express'),
   routes = require('./routes'),
   config = require('./config'),
   streamHandler = require('./utils/streamHandler');
+var fs = require('fs');
+
 
 // Create an express instance and set a port variable
 var app = express();
